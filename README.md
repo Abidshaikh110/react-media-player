@@ -1,62 +1,38 @@
-# React Media Player
+**React Media Player** is a fully-featured, customizable media player built with React. It provides a robust solution for playing audio and video content in web applications, supporting multiple media types including HTML5, YouTube, and Vimeo. With a focus on accessibility and responsive design, this project is perfect for developers looking to integrate a modern and user-friendly media player into their React-based projects.
 
-A comprehensive React library for creating video and audio players with support for HTML5, YouTube, and Vimeo media types. This library allows developers to build custom media players with advanced controls and keyboard support.
+### Key Features:
 
-## Features
+- **Supports Multiple Media Types**: Effortlessly play HTML5 audio and video files, as well as YouTube and Vimeo videos.
+- **Customizable Player Controls**: Includes intuitive controls such as play, pause, mute, volume adjustment, fullscreen toggle, and more.
+- **Keyboard Accessibility**: Built with accessibility in mind, offering full support for keyboard interactions.
+- **Responsive Design**: Adaptable to different screen sizes, ensuring a consistent user experience across devices.
+- **Advanced Control Customization**: Easily modify or extend player controls to suit specific project requirements.
+- **Time Formatting and Utility Functions**: Comes with handy utilities to enhance media control and presentation.
 
-- Supports multiple media types: HTML5 (video and audio), YouTube, Vimeo.
-- Customizable player controls (play, pause, mute, volume control, etc.).
-- Built-in decorators for easy control customization.
-- Utilities for handling keyboard events and formatting media time.
-- Lightweight and easy to integrate into any React project.
+### Getting Started:
 
-## Installation
+To run the **React Media Player** project locally:
 
-To install `react-media-player`, use npm:
-
-```bash
-npm install react-media-player --save
-```
-
- Alternatively, you can use the UMD library:
-
-```html
-<script src="https://unpkg.com/react-media-player/dist/react-media-player.js"></script>
-```
-
-The UMD library is exposed as `ReactMediaPlayer`.
-
-## Running Locally
-
-To run the project locally:
-
-1. **Clone the repository:**
+1. **Clone the Repository:**
    ```bash
    git clone git@github.com:shakeelkhuhro/react-media-player.git
    ```
 
-2. **Move into the folder:**
-   ```bash
-   cd ~/react-media-player
-   ```
-
-3. **Install dependencies:**
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
 
-4. **Run in development mode:**
+3. **Run the Application in Development Mode:**
    ```bash
    npm run dev
    ```
 
-5. **Open your browser and visit:**
+4. **Open Your Browser and Visit:**
    ```
    http://localhost:8080/
    ```
 
-## Author
+### About:
 
-Created by [Shakeel Khuhro](https://github.com/shakeelkhuhro).
-
-This library provides a robust and flexible solution for integrating media playback into your React applications, enabling you to create highly customizable and user-friendly media experiences.
+This project showcases a powerful and adaptable media player built with React, providing a solid foundation for further customization and development. It is perfect for projects that require advanced media playback capabilities combined with a clean and modern UI.
